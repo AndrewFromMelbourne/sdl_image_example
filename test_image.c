@@ -41,8 +41,8 @@ int main(int argc, char* argv[])
     if (!image)
     {
         fprintf(stderr, "IMG_Load failed - %s\n", IMG_GetError());
-		SDL_Quit();
-		return 1;
+        SDL_Quit();
+        return 1;
     }
 
     /*-----------------------------------------------------------------*/
